@@ -1,0 +1,1 @@
+cat nt.links.list | parallel -j500 'rsync -h --progress {} nt'
